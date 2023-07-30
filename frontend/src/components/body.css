@@ -1,0 +1,89 @@
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-content {
+  margin-left: 30px;
+  width: 50%;
+  font-size: 24px;
+  text-align: left;
+}
+
+.review-section {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.reviewBody {
+  margin-left: 5px;
+  font-size: x-large;
+  width: 500px;
+  height: 300px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.camel img {
+  width: 700px;
+}
+
+.start-icon,
+.student-icon,
+.instructor-icon {
+  margin-right: 5px;
+}
+.learnmore {
+  font-size: 17px;
+  color: grey;
+}
+
+.learn-more-btn {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.reviewBody {
+}
+
+.quote {
+  margin-top: 110px;
+  font-weight: bold;
+
+  color: black;
+}
+.quote hr {
+  width: 50%;
+  margin-left: -1px;
+}
+.quotep {
+  opacity: 30%;
+}
+
+.quote hr {
+  border: 0;
+  height: 4px;
+  background-color: orange;
+  font-weight: bold;
+  width: 250px;
+}
+.quotep:hover {
+  opacity: 100%;
+  color: black;
+}
